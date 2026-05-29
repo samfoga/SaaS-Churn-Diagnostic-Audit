@@ -8,8 +8,8 @@ Conducted an end-to-end business intelligence audit for a SaaS platform (n=1,000
 * **Interactive Dashboard:** [https://public.tableau.com/app/profile/samuel.foga/viz/SaaS-UnderstandingChurn-Project1/SaaSSubscriptionChurnDiagnosticAudit]
 
 ## Repository Structure
-* `saas_etl_and_data_cleaning.sql`: SQL script initializing the schema, staging tables, and standardizing messy date strings.
-* `saas_churn_root_cause_analysis.sql`: Advanced analysis queries utilizing CTEs, aggregations, and tenure calculations to isolate the core insights.
+* [saas_etl_and_data_cleaning.sql](saas_etl_and_data_cleaning.sql): SQL script initializing the schema, staging tables, and standardizing messy date strings.
+* [saas_churn_root_cause_analysis.sql](saas_churn_root_cause_analysis.sql): Advanced analysis queries utilizing CTEs, aggregations, and tenure calculations to isolate the core insights.
 
 ## Technical Architecture & Methodology
 * **Data Engineering & ETL (SQL):** Constructed a staging environment in MySQL Workbench. Engineered sanitization scripts utilizing `CONCAT()` and `STR_TO_DATE()` to transform inconsistent text attributes into uniform database `DATE` types.
