@@ -1,6 +1,4 @@
 # SaaS-Churn-Diagnostic-Audit
-![Dashboard Preview](dashboard_preview.png)
-
 End-to-end SaaS churn audit. Used MySQL to clean dates and build cohort metrics. Deployed a Tableau dashboard to isolate a critical 5-month retention cliff likely due to a marketing ICP targeting mismatch starting Q4 2024.
 
 ## Executive Summary
@@ -23,3 +21,5 @@ Conducted an end-to-end business intelligence audit for a SaaS platform (n=1,000
 * Advanced SQL (CTEs, Subqueries, Date Functions)
 * Business Intelligence (Tableau)
 * Root Cause Analysis (RCA)
+
+![Dashboard Preview](dashboard_preview.png)
